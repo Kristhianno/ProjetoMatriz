@@ -82,7 +82,6 @@
 
             {% if recipe.preparation_steps_is_html is True %}
                     {{ recipe.preparation_steps|safe }}
-
             {% else %}
                     {{ recipe.preparation_steps|linebreaksbr }}
             {% endif %}
